@@ -4,6 +4,10 @@ from src.data_preprocessing import preprocess_data
 from src.model_training import train_models
 from src.model_evaluation import evaluate_models
 from src.real_time_analysis import perform_real_time_analysis
+from src.deep_learning.rnn import RNN
+from src.deep_learning.cnn import CNN
+from src.deep_learning.lstm import LSTM
+from src.clustering.kmeans import KMeans
 
 def main():
     # Step 1: Load and preprocess the data
